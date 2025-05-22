@@ -9,6 +9,8 @@ from utilities import *
 # Assignment 8 Part II
 
 
+
+
 def get_planet_radius(planet_name: str) -> str:
     """Gets the radius of the given planet
 
@@ -60,8 +62,8 @@ if __name__ == "__main__":
     print('\n<<<< Running asserts, this might take a sec >>>>')
     assert get_planet_radius("Mars") == "3376.2", "Incorrect radius for Mars"
     assert get_planet_radius("Earth") == "6356.752", "Incorrect radius for Earth"
-    assert get_planet_radius("Jupiter") == "66,854", "Incorrect radius for Jupiter"
-    assert get_planet_radius("Saturn") == "54,364", "Incorrect radius for Saturn"
+    assert get_planet_radius("Jupiter") == "66854", "Incorrect radius for Jupiter"
+    assert get_planet_radius("Saturn") == "54364", "Incorrect radius for Saturn"
     print('\n<<<< Planet radius tests passed >>>>')
 
     print("\n<<<<<<<<<<<<<< Testing Birth Dates >>>>>>>>>>>>>>")
@@ -83,3 +85,5 @@ if __name__ == "__main__":
     print('\n<<<< Birth date tests passed >>>>')
 
     print('\n<<<< All tests passed! >>>>')
+
+   
